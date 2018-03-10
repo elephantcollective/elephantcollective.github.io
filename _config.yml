@@ -18,7 +18,7 @@ email: info@elephantcollective.org
 description: > # this means to ignore newlines until "baseurl:"
   Art that never forgets.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://elephantcollective.irg" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://elephantcollective.org" # the base hostname & protocol for your site, e.g. http://example.com
 image:
 google_analytics: UA-115447845-1
 facebook_app:
