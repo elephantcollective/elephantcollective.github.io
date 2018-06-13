@@ -10,7 +10,7 @@ layout: default
       <img class="logo" src="/assets/images/logo.png"/>
     </div>
     <div>
-      <a href="javascript:void(0)" data-cb-type="checkout" data-cb-plan-id="" class="btn waves-effect waves-light pink">
+      <a href="javascript:void(0)" data-cb-type="checkout" class="btn waves-effect waves-light pink">
         Pay for the Herd!
       </a>
     </div>
