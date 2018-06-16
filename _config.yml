@@ -14,12 +14,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: The Elephant Collective
-email: stacey@elephantcollective.org
+email: dylan@elephantcollective.org
 description: > # this means to ignore newlines until "baseurl:"
-  Unforgettable.
+  Dream Bigger.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://elephantcollective.org" # the base hostname & protocol for your site, e.g. http://example.com
-image:
+image: "/assets/images/donovan.png"
 google_analytics: UA-115447845-1
 facebook_app:
 twitter_handle:
