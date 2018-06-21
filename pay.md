@@ -22,5 +22,6 @@ title: The Herd Checkout
   $(document).ready(function(){
     var params = $.deparam(location.search.replace("\?", ""));
     $("#checkout").attr("data-cb-coupon-id", params.coupon);
+    Chargebee.registerAgain();
   });
 </script>
