@@ -11,7 +11,7 @@ title: The Herd Volunteer Checkout
       <img class="logo" src="/assets/images/logo.png"/>
     </div>
     <div>
-      <a href="javascript:void(0)" data-cb-type="checkout" data-cb-plan-id="the-herd" data-db-coupon-i="AFTERGLOW" class="btn waves-effect waves-light pink">
+      <a href="javascript:void(0)" data-cb-type="checkout" data-cb-plan-id="the-herd" data-db-coupon-id="AFTERGLOW" class="btn waves-effect waves-light pink">
         Get your free month!
       </a>
     </div>
