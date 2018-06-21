@@ -11,10 +11,16 @@ title: The Herd Checkout
       <img class="logo" src="/assets/images/logo.png"/>
     </div>
     <div>
-      <a href="javascript:void(0)" data-cb-type="checkout" data-cb-plan-id="the-herd" class="btn waves-effect waves-light pink">
-        Pay for the Herd!
+      <a id="checkout" href="javascript:void(0)" data-cb-type="checkout" data-cb-plan-id="the-herd" class="btn waves-effect waves-light pink">
+        Subscribe to the Herd!
       </a>
     </div>
   </div>
 </div>
 
+<script type="text/javascript">
+  $(document).ready(function(){
+    var params = $.deparam(location.search.replace("\?", ""));
+    $("#checkout").attr("data-cb-coupon-id", params.coupon);
+  });
+</script>
