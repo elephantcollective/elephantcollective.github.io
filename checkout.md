@@ -52,3 +52,9 @@ title: The Elephant Collective Checkout
     </div>
   </div>
 </div>
+
+<script>
+  $(document).ready(function(){
+    $('select').formSelect();
+  });
+</script>
