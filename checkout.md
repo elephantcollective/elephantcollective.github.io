@@ -14,8 +14,8 @@ title: The Elephant Collective Checkout
       <img class="logo" src="/assets/images/logo.png"/>
     </div>
     <div>
-      <div class="input-field col s12">
-        <div>
+      <div class="full-width center-align">
+        <div class="input-field col s12">
           <select>
             <option value="" disabled selected>Choose your billing period</option>
             <option value="the-herd">Monthly  $25</option>
@@ -24,7 +24,7 @@ title: The Elephant Collective Checkout
           </select>
           <label>Period</label>
         </div>
-        <div>
+        <div class="input-field col s12">
           <select>
             <option value="" disabled selected>Would you like to make an additional donation?</option>
             <option value="5">5</option>
@@ -56,5 +56,6 @@ title: The Elephant Collective Checkout
 <script>
   $(document).ready(function(){
     $('select').formSelect();
+    $('.dropdown-trigger').dropdown();
   });
 </script>
