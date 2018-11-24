@@ -7,8 +7,8 @@ title: The Herd Checkout
 
 <div class="valign-wrapper full-vh">
   <div class="full-width center-align">
-    <div>
-      <img class="logo" src="/assets/images/logo.png"/>
+    <div>x
+      <Img class="logo" src="/assets/img/logo/logo.png"/>
     </div>
     <div>
       <a id="checkout" href="javascript:void(0)" data-cb-type="checkout" data-cb-plan-id="the-herd" class="btn waves-effect waves-light pink">
