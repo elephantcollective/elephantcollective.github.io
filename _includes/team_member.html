@@ -1,0 +1,29 @@
+<div class="col s12 m4">
+  <div class="card card-avatar">
+    <div class="waves-effect waves-block waves-light">
+      <img class="activator" src="{{ include.img }}">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">
+        {{ include.name }}
+        <br/>
+        <small><em><a class="red-text text-darken-1">{{ include.title }}
+      </a></em></small></span>
+      <p>
+        {% include social_icon.html
+           href=include.email
+           icon="envelope"
+           %}
+      </p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">
+        {{ include.name }}
+        <i class="material-icons right">close</i>
+      </span>
+      <p>
+        {{ include.bio }}
+      </p>
+    </div>
+  </div>
+</div>
