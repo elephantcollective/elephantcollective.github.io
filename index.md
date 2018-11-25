@@ -13,7 +13,13 @@ title: The Elephant Collective
 
 {% include work.html %}
 
-{% include parallax.html src='/assets/img/bg/warehouse_pano.jpg'%}
+{% include parallax.html src='/assets/img/events/bigeasyalice/absinthe_bar.jpg'%}
+
+{% include participate.html %}
+
+{% include donate.html %}
+
+{% include parallax.html src='/assets/img/events/bigeasyalice/rabbit_hole.jpg'%}
 
 {% include team.html %}
 
