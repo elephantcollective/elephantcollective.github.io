@@ -2,96 +2,48 @@
   <div class="container">
     <h2 class="header text_b">Projects</h2>
     <div class="row">
-      <div class="col s12 m4 l4">
-        <div class="card">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="/assets/img/sample/project1.jpg">
-          </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-            <p><a href="#">Project link</a></p>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-            <p>Here is some more information about this project that is only revealed once clicked on.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col s12 m4 l4">
-        <div class="card">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="/assets/img/sample/project2.jpeg">
-          </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-            <p><a href="#">Project link</a></p>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-            <p>Here is some more information about this project that is only revealed once clicked on.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col s12 m4 l4">
-        <div class="card">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="/assets/img/sample/project3.png">
-          </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-            <p><a href="#">Project link</a></p>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-            <p>Here is some more information about this project that is only revealed once clicked on.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col s12 m4 l4">
-        <div class="card">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="/assets/img/sample/project4.jpg">
-          </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-            <p><a href="#">Project link</a></p>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-            <p>Here is some more information about this project that is only revealed once clicked on.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col s12 m4 l4">
-        <div class="card">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="/assets/img/sample/project5.png">
-          </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-            <p><a href="#">Project link</a></p>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-            <p>Here is some more information about this project that is only revealed once clicked on.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col s12 m4 l4">
-        <div class="card">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="/assets/img/sample/project6.jpeg">
-          </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-            <p><a href="#">Project link</a></p>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-            <p>Here is some more information about this project that is only revealed once clicked on.</p>
-          </div>
-        </div>
-      </div>
+      {% include project.html
+      title="The Trumpeter of Truth"
+      img="/assets/img/sample/project1.jpg"
+      body="Here is some more information about this project that is only revealed once clicked on."
+      link="Donate"
+      href="#donate"
+      %}
+      {% include project.html
+      title="Immersive Events"
+      img="/assets/img/sample/project2.jpeg"
+      body="Here is some more information about this project that is only revealed once clicked on."
+      link="More Info"
+      href="#gallery"
+      %}
+      {% include project.html
+      title="Classes & Education"
+      img="/assets/img/sample/project3.png"
+      body="Here is some more information about this project that is only revealed once clicked on."
+      link="More Info"
+      href="#"
+      %}
+      {% include project.html
+      title="Arts Business Incubation"
+      img="/assets/img/sample/project4.jpg"
+      body="Here is some more information about this project that is only revealed once clicked on."
+      link="More Info"
+      href="#"
+      %}
+      {% include project.html
+      title="Community Fabrication Shop"
+      img="/assets/img/sample/project5.png"
+      body="Here is some more information about this project that is only revealed once clicked on."
+      link="More Info"
+      href="#"
+      %}
+      {% include project.html
+      title="Public Art"
+      img="/assets/img/sample/project6.jpeg"
+      body="Here is some more information about this project that is only revealed once clicked on."
+      link="More Info"
+      href="#"
+      %}
     </div>
   </div>
 </div>
