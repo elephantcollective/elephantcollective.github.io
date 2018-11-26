@@ -1,16 +1,12 @@
 <div id="gallery" class="slider scrollspy">
   <ul class="slides">
-    {% include slide.html
-    src="/assets/img/events/bigeasyalice/bryce/1.jpg"
-    %}
-    {% include slide.html
-    src="/assets/img/events/bigeasyalice/bryce/2.jpg"
-    %}
-    {% include slide.html
-    src="/assets/img/events/bigeasyalice/bryce/3.jpg"
-    %}
-    {% include slide.html
-    src="/assets/img/events/bigeasyalice/bryce/4.jpg"
-    %}
+    {% for i in (1..12) %}
+    <li>
+      <img class=""
+           src="/assets/img/events/bigeasyalice/bryce/{{ i }}.jpg">
+      <div class="caption left-align">
+      </div>
+    </li>
+    {% endfor %}
   </ul>
 </div>

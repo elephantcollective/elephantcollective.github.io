@@ -13,7 +13,11 @@ function typeform(id, domain, formId) {
 
     $('.sidenav').sidenav();
 	  $('.scrollspy').scrollSpy({scrollOffset: 64});
-    $('.slider').slider({full_width: true});
+    $('.slider').slider({
+      full_width: true,
+      height: 600,
+    });
+    $('.materialboxed').materialbox();
 
     /*** Animate word ***/
 
@@ -31,14 +35,6 @@ function typeform(id, domain, formId) {
 		    //clip effect
 		    revealDuration = 600,
 		    revealAnimationDelay = 1500;
-
-    function openGallery() {
-      $("#gallery").addClass("fullscreen")
-    }
-
-    function closeGallery() {
-      $("#gallery").removeClass("fullscreen")
-    }
 
 	  initHeadline();
 

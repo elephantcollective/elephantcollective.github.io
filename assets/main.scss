@@ -349,3 +349,8 @@ footer.page-footer {
     padding-top: 0px;
   }
 }
+
+.slider.fullscreen {
+  position: fixed;
+  z-index: 1000;
+}
