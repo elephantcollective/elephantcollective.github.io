@@ -12,7 +12,7 @@ function typeform(id, domain, formId) {
   $(function(){
 
     $('.sidenav').sidenav();
-	  $('.scrollspy').scrollSpy();
+	  $('.scrollspy').scrollSpy({scrollOffset: 64});
     $('.slider').slider({full_width: true});
 
     /*** Animate word ***/
