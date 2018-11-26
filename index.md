@@ -23,4 +23,6 @@ title: The Elephant Collective
 
 {% include team.html %}
 
+{% include sponsors.html %}
+
 {% include footer.html %}
