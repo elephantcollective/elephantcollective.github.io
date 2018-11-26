@@ -39,7 +39,9 @@ iframe#typeform-full {
   padding: 0 15px;
 }
 
-#intro, #work, #team {padding-top: 4rem;}
+#intro, #work, #participate, #donate {
+  padding-top: 4rem;
+}
 
 
 #index-banner {
@@ -97,7 +99,15 @@ iframe#typeform-full {
   color: $primary-color;
 }
 
-.text_b{color: $primary-color;}
+.text_b{
+  color: $primary-color;
+  font-weight: 300;
+}
+
+.header {
+  margin-bottom: 4%;
+  line-height: 4.5rem;
+}
 
 .in{font-weight: 400 !important; font-style: normal !important;}
 
@@ -389,4 +399,18 @@ footer.page-footer {
 
 .footer-copyright .row {
   margin-bottom: 0px;
+}
+
+#work, #participate {
+  .mailing-list {
+    margin-bottom: 50px;
+    margin-top: -40px;
+  }
+}
+
+#donate {
+  .dbox-donation-button {
+    margin-top: -30px;
+    margin-bottom: 20px;
+  }
 }
