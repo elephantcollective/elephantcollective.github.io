@@ -16,6 +16,7 @@ function typeform(id, domain, formId) {
     $('.slider').slider({
       full_width: true,
       height: 600,
+      indicators: false
     });
     $('.materialboxed').materialbox();
 
