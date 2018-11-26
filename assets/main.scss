@@ -58,7 +58,7 @@ iframe#typeform-full {
 }
 
 .text_h {
-  padding: 10% 0;
+  padding: 5% 0;
   font-size: 6.0em;
   font-weight: 100;
   color:white;
@@ -72,7 +72,7 @@ iframe#typeform-full {
   font-style: normal;
   font-weight: 100;
   padding: 0;
-  letter-spacing: 6px;
+  letter-spacing: 4px;
 }
 
 .text_h2 {font-weight: 100;margin-bottom: 4%; line-height: 4.5rem;}
@@ -309,7 +309,12 @@ footer.page-footer {
 }
 
 .donate-hero {
-  bottom: 185px;
+  bottom: 225px;
+}
+
+#index-banner .nonprofit {
+  bottom: 25px;
+  font-weight: 100;
 }
 
 .navbar-fixed .dbox-donation-button {
