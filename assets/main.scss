@@ -354,3 +354,21 @@ footer.page-footer {
   position: fixed;
   z-index: 1000;
 }
+
+.contact {
+  margin-bottom: 5px;
+
+  i {
+    margin-right: 5px;
+  }
+
+  .title {
+    margin-top: 4px;
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+
+.footer-copyright .row {
+  margin-bottom: 0px;
+}

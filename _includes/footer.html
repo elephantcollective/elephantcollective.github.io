@@ -2,25 +2,64 @@
   <div class="container">
     <div class="row">
       <div class="col l3 s12">
+        <h5 class="white-text">Physical Address</h5>
+        The Elephant Collective
+        <br>
+        3610 Toulouse St.
+        <br>
+        New Orleans, LA
+        <br>
+        70119
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">Mailing Address</h5>
+        The Elephant Collective
+        <br>
+        3014 Dauphine St. Ste A #76608
+        <br>
+        New Orleans, LA
+        <br>
+        70117
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">Contact</h5>
+        <ul>
+          {% include contact_link.html
+          title="Phone"
+          href="tel:(504) 500-7909"
+          icon="fa-phone-square"
+          %}
+          {% include contact_link.html
+          title="Email"
+          href="mailto:info@elephantcollective.org"
+          icon="fa-envelope-square"
+          %}
+        </ul>
+      </div>
+      <div class="col l3 s12">
         <h5 class="white-text">Social</h5>
         <ul>
-          <li>
-            <a class="white-text" href="https://www.facebook.com/elephantcollectivenola">
-              <i class="small fa fa-facebook-square white-text"></i> Facebook
-            </a>
-          </li>
-          <li>
-            <a class="white-text" href="https://github.com/joashp">
-              <i class="small fa fa-instagram-square white-text"></i> Instagram
-            </a>
-          </li>
+          {% include contact_link.html
+          title="Facebook"
+          href="https://www.facebook.com/elephantcollectivenola"
+          icon="fa-facebook-square"
+          %}
+          {% include contact_link.html
+          title="Instagram"
+          href="https://www.instagram.com/elephant_collective"
+          icon="fa-instagram"
+          %}
         </ul>
       </div>
     </div>
   </div>
   <div class="footer-copyright default_color">
     <div class="container">
+      <div class="row">
+        <div class="col">
       Made by <a class="white-text" href="http://elephantcollective.org">The Elephant Collective</a>. 2018
+        </div>
+      </div>
     </div>
   </div>
 </footer>
