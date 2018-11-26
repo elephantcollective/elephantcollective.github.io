@@ -75,16 +75,34 @@ iframe#typeform-full {
   letter-spacing: 4px;
 }
 
-.text_h2 {font-weight: 100;margin-bottom: 4%; line-height: 4.5rem;}
+.text_h2 {
+  font-weight: 100;
+  margin-bottom: 4%;
+  line-height: 4.5rem;
+}
 
-.span_h2 {font-weight: 300;color: #ff00bc;}
+.span_h2 {
+  font-weight: 300;
+  color: $primary-color;
+}
 
-.text_b{color: #ff00bc;}
+.text_h5 {
+  font-weight: 300;
+  margin-bottom: 4%;
+  line-height: 2.5rem;
+}
+
+.span_h5 {
+  font-weight: 400;
+  color: $primary-color;
+}
+
+.text_b{color: $primary-color;}
 
 .in{font-weight: 400 !important; font-style: normal !important;}
 
 .promo i {
-  color: #ff00bc;
+  color: $primary-color;
   font-size: 7rem;
   display: block;
 }
@@ -92,9 +110,9 @@ iframe#typeform-full {
 .card {
   overflow: hidden;
 }
-.card-content a {color: #ff00bc;}
+.card-content a {color: $primary-color;}
 
-.card-content a:hover {color: #ff00bc;}
+.card-content a:hover {color: $primary-color;}
 
 #work, #team, #donate {background: rgb(247, 247, 247);}
 
@@ -144,7 +162,7 @@ nav ul a {
 }
 
 .cd-headline.type .cd-words-wrapper.selected b {
-  color: #ff00bc;
+  color: $primary-color;
 }
 
 .cd-headline.type b {
@@ -327,13 +345,13 @@ footer.page-footer {
 }
 
 .dbox-icon {
-  background: #FF00BC url(https://d1iczxrky3cnb2.cloudfront.net/white_logo.png) no-repeat 37px center;
+  background: $primary-color url(https://d1iczxrky3cnb2.cloudfront.net/white_logo.png) no-repeat 37px center;
   width: 20px;
   height: 20px;
 }
 
 .dbox-donation-button {
-  background:#FF00BC url(https://d1iczxrky3cnb2.cloudfront.net/white_logo.png) no-repeat 37px center;
+  background:$primary-color url(https://d1iczxrky3cnb2.cloudfront.net/white_logo.png) no-repeat 37px center;
   color: #fff;
   text-decoration: none;
   display: inline-block;
