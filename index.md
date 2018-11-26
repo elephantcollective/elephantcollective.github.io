@@ -11,9 +11,11 @@ title: The Elephant Collective
 
 {% include intro.html %}
 
+{% include parallax.html src='/assets/img/events/bigeasyalice/absinthe_bar.jpg'%}
+
 {% include work.html %}
 
-{% include parallax.html src='/assets/img/events/bigeasyalice/absinthe_bar.jpg'%}
+{% include gallery.html %}
 
 {% include participate.html %}
 

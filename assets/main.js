@@ -13,6 +13,7 @@ function typeform(id, domain, formId) {
 
     $('.sidenav').sidenav();
 	  $('.scrollspy').scrollSpy();
+    $('.slider').slider({full_width: true});
 
     /*** Animate word ***/
 
@@ -31,8 +32,15 @@ function typeform(id, domain, formId) {
 		    revealDuration = 600,
 		    revealAnimationDelay = 1500;
 
-	  initHeadline();
+    function openGallery() {
+      $("#gallery").addClass("fullscreen")
+    }
 
+    function closeGallery() {
+      $("#gallery").removeClass("fullscreen")
+    }
+
+	  initHeadline();
 
 	  function initHeadline() {
 		  singleLetters($('.cd-headline.letters').find('b'));
