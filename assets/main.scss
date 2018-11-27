@@ -41,6 +41,10 @@ iframe#typeform-full {
 
 #intro, #work, #participate, #donate {
   padding-top: 4rem;
+
+  @media #{$medium-and-down} {
+    padding-top: 1rem;
+  }
 }
 
 
@@ -64,6 +68,11 @@ iframe#typeform-full {
   font-size: 6.0em;
   font-weight: 100;
   color:white;
+
+  @media #{$medium-and-down} {
+    padding: 25% 0;
+    font-size: 3.7em;
+  }
 }
 
 .brand-logo{
@@ -272,15 +281,6 @@ nav ul a {
   margin:-100px 0 0 -100px; /* is width and height divided by two */
 }
 
-@media only screen and (max-width: 480px) {
-  .text_h {
-    padding: 4% 0;
-    font-size: 5em;
-    font-weight: 100;
-    color: white;
-  }
-}
-
 input, textarea {
   border-bottom: 1px solid #fff;
 }
@@ -338,6 +338,10 @@ footer.page-footer {
 
 .donate-hero {
   bottom: 225px;
+
+  @media #{$medium-and-down} {
+    bottom: 85px;
+  }
 }
 
 #index-banner .nonprofit {
@@ -405,6 +409,11 @@ footer.page-footer {
   .mailing-list {
     margin-bottom: 50px;
     margin-top: -40px;
+
+    @media #{$medium-and-down} {
+      margin-bottom: 50px;
+      margin-top: 0px;
+    }
   }
 }
 
@@ -412,6 +421,11 @@ footer.page-footer {
   .dbox-donation-button {
     margin-top: -30px;
     margin-bottom: 20px;
+
+    @media #{$medium-and-down} {
+      margin-bottom: 20px;
+      margin-top: 0px;
+    }
   }
 }
 
