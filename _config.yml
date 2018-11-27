@@ -21,7 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://elephantcollective.org" # the base hostname & protocol for your site, e.g. http://example.com
 image: "/assets/img/logo/donovan.png"
 google_analytics: UA-115447845-1
-facebook_app:
+facebook_pixel: 194236768193439
 twitter_handle:
 
 # Build settings
