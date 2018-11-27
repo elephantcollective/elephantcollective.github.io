@@ -7,14 +7,38 @@
       <span class="card-title activator grey-text text-darken-4">
         {{ include.name }}
         <br/>
-        <small><em><a class="red-text text-darken-1">{{ include.title }}
+        <small><em><a class="">{{ include.title }}
       </a></em></small></span>
-      <p>
-        {% include social_icon.html
-           href=include.email
-           icon="envelope"
-           %}
-      </p>
+      {% if include.email %}
+      {% include social_icon.html
+      href=include.email
+      icon="fa-envelope"
+      %}
+      {% endif %}
+      {% if include.website %}
+      {% include social_icon.html
+      href=include.website
+      icon="fa-link"
+      %}
+      {% endif %}
+      {% if include.facebook %}
+      {% include social_icon.html
+      href=include.facebook
+      icon="fa-facebook-square"
+      %}
+      {% endif %}
+      {% if include.instagram %}
+      {% include social_icon.html
+      href=include.instagram
+      icon="fa-instagram"
+      %}
+      {% endif %}
+      {% if include.linkedin %}
+      {% include social_icon.html
+      href=include.linkedin
+      icon="fa-linkedin-square"
+      %}
+      {% endif %}
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">
