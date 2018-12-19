@@ -1,5 +1,5 @@
 <div class="col s12 {{ include.col | default: m6 }}">
-  <div class="card">
+  <div {% if include.id %} id="{{ include.id }}" {% endif %} class="card">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator" src="{{ include.img }}">
     </div>
