@@ -22,6 +22,7 @@ url: "https://elephantcollective.org" # the base hostname & protocol for your si
 image: "/assets/img/bg/warehouse_pano.jpg"
 google_analytics: UA-115447845-1
 facebook_pixel: 194236768193439
+hubspot: 4652303
 twitter_handle:
 include: [.well-known]
 
