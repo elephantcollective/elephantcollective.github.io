@@ -23,6 +23,7 @@ image: "/assets/img/bg/warehouse_pano.jpg"
 google_analytics: UA-115447845-1
 facebook_pixel: 194236768193439
 twitter_handle:
+include: [.well-known]
 
 # Build settings
 markdown: kramdown
