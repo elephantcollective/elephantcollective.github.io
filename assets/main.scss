@@ -90,10 +90,20 @@ iframe#typeform-full {
   letter-spacing: 4px;
 }
 
+.header {
+  margin-bottom: 4%;
+  line-height: 4.5rem;
+}
+
 .text_h2 {
   font-weight: 100;
   margin-bottom: 4%;
   line-height: 4.5rem;
+
+  @media #{$medium-and-down} {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
 }
 
 strong {
@@ -120,11 +130,6 @@ strong {
 .text_b{
   color: $primary-color;
   font-weight: 300;
-}
-
-.header {
-  margin-bottom: 4%;
-  line-height: 4.5rem;
 }
 
 .in{font-weight: 400 !important; font-style: normal !important;}
