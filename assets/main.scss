@@ -96,6 +96,11 @@ iframe#typeform-full {
   line-height: 4.5rem;
 }
 
+strong {
+  color: $primary-color;
+  font-weight: 300;
+}
+
 .span_h2 {
   font-weight: 300;
   color: $primary-color;
@@ -132,12 +137,20 @@ iframe#typeform-full {
 
 .card {
   overflow: hidden;
+
+  .card-content,
+  .card-action {
+    a {
+      color: $primary-color !important;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
 }
-.card-content a {color: $primary-color;}
 
-.card-content a:hover {color: $primary-color;}
-
-#work, #team, #donate {background: rgb(247, 247, 247);}
+#work, #team, #donate, #intro, .gray-bg {background: rgb(247, 247, 247);}
 
 .text_pink{color:#EF9A9A;}
 
@@ -442,4 +455,8 @@ footer.page-footer {
   &:hover {
     opacity: 1;
   }
+}
+
+.margin-bottom {
+  margin-bottom: 20px;
 }

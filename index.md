@@ -7,7 +7,9 @@ title: The Elephant Collective
 
 {% include nav.html %}
 
-{% include hero.html %}
+{% include hero.md %}
+
+{% include featured.html %}
 
 {% include intro.html %}
 

@@ -29,7 +29,7 @@ include: [.well-known]
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
+plugins:
 exclude:
   - Gemfile
   - Gemfile.lock

@@ -1,5 +1,5 @@
 <div class="col s12 {{ include.col | default: m6 }}">
-  <div {% if include.id %} id="{{ include.id }}" {% endif %} class="card">
+  <div {% if include.id %} id="{{ include.id }}" {% endif %} class="card sticky-action">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator" src="{{ include.img }}">
     </div>
@@ -8,12 +8,15 @@
         {{ include.title }}
         <i class="material-icons right">more_vert</i>
       </span>
-      {% if include.href %}
-      <p>
-        <a href="{{ include.href }}">{{ include.link }}</a>
-      </p>
+      {% if include.content %}
+        {{ include.content }}
       {% endif %}
     </div>
+    {% if include.href %}
+    <div class="card-action">
+      <a href="{{ include.href }}">{{ include.link }}</a>
+    </div>
+    {% endif %}
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">
         {{ include.title }}
