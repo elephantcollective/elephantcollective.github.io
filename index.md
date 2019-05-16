@@ -30,5 +30,3 @@ title: The Elephant Collective
 {% include sponsors.html %}
 
 {% include footer.html %}
-
-{% include front_chat.html chatId=' %}
